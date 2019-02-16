@@ -1,6 +1,6 @@
 # DjModels Demo App using Flask
 
-This app demonstrates how you can DjModels together with Flask.
+This app demonstrates how you can [DjModels](https://github.com/iMerica/dj-models) together with Flask.
 
 
 ### Setup
