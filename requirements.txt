@@ -1,2 +1,2 @@
-DJModels==0.0.4
+DJModels==0.0.6
 Flask==1.0.2
