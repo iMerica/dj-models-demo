@@ -1,0 +1,18 @@
+version: '3'
+services:
+  app: &base
+    build: .
+    depends_on:
+      - db
+    ports:
+      - "5000:5000"
+    command: python web.py
+    environment:
+      DJMODELS_SETTINGS_MODULE: 'project.settings'
+    volumes:
+      - ./:/app/
+  db:
+    image: postgres:10
+    ports:
+      - "5432:5432"
+    hostname: postgres
